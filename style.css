@@ -61,6 +61,12 @@ body {
 }
 /* Ana Sayfadaki Hareketli HES Yazısı */
 
+.bilgi-kutu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .anasayfa-yazi{
     font-size: 20px;
     font-weight: 500; 
@@ -310,31 +316,25 @@ body {
 /* En Çok Satan Yazısı */
 
 /* Hakkımızda sayfasının alt kısmı */
-.bilgi-kutu{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
 .icon {
     margin-bottom: 25px; display: block;
 }
 
-.bilgi-card h3 {
+.value-card h3 {
     margin-bottom: 15px; font-size: 20px;
 }
 
-.bilgi-card p {
+.value-card p {
     color: #666; font-size: 15px;
 }
 
-.bilgi-grid {
+.values-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-.bilgi-card {
+.value-card {
     background: white;
     padding: 30px 20px;
     border-radius: 15px;
@@ -343,7 +343,7 @@ body {
     border-bottom: 4px solid transparent;
 }
 
-.bilgi-card:hover {
+.value-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
     border-bottom: 4px solid black;
