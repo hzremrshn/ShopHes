@@ -320,21 +320,21 @@ body {
     margin-bottom: 25px; display: block;
 }
 
-.value-card h3 {
+.bilgi-card h3 {
     margin-bottom: 15px; font-size: 20px;
 }
 
-.value-card p {
+.bilgi-card p {
     color: #666; font-size: 15px;
 }
 
-.values-grid {
+.bilgi-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-.value-card {
+.bilgi-card {
     background: white;
     padding: 30px 20px;
     border-radius: 15px;
@@ -343,7 +343,7 @@ body {
     border-bottom: 4px solid transparent;
 }
 
-.value-card:hover {
+.bilgi-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
     border-bottom: 4px solid black;
